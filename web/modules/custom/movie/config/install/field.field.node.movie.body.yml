@@ -1,4 +1,3 @@
-uuid: 56f94dc3-abbb-4be4-9d6b-e473782e3f8c
 langcode: en
 status: true
 dependencies:
@@ -7,8 +6,6 @@ dependencies:
     - node.type.movie
   module:
     - text
-_core:
-  default_config_hash: Tf-r3R89Jjy5x8njTjlazax9XnteCW17s-ZMKNMSECA
 id: node.movie.body
 field_name: body
 entity_type: node
