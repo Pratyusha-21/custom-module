@@ -1,0 +1,7 @@
+form.settings:
+  path: '/form'
+  defaults:
+    _form: '\Drupal\form\Form\UserDetailsConfigForm'
+    _title: 'Form Module'
+  requirements:
+    _permission: 'access content'

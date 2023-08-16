@@ -1,0 +1,6 @@
+name: Block API Module
+description: Works on creating and placing a custom block.
+package: Custom
+
+type: module
+core_version_requirement: ^9 || ^10

@@ -1,0 +1,37 @@
+<?php
+
+use Drupal\node\Entity\Node;
+
+function menu_api_page_attachments(array &$attachments) {
+    $attachments['#attached']['library'][] = 'menu_api/global-styling';        
+}
+
+function menu_api_node_view(array &$build, \Drupal\Core\Entity\EntityInterface $entity, \Drupal\Core\Entity\Display\EntityViewDisplayInterface $display, $view_mode) {
+    if ($entity->bundle() == "movie") {
+        // $config = \Drupal::config('menu_api.settings');
+        $config = \Drupal::service("config.factory")->get('menu_api.settings');
+        $budget = $config->get('movie_budget');      
+        $node = Node::load($entity->id());
+        $price = $node->get('field_movie_price')->value;
+        // dump($price);
+        if ($price > $budget) {
+            $message = "<h4>The movie is over budget</h4>";
+        }
+        elseif ($price < $budget) {
+            $message = "<h4>The movie is under budget</h4>";
+        }
+        else {
+            $message = "<h4>The movie is within budget</h4>";
+        }
+        $build['price'] = [
+            '#markup' => $message,
+            '#cache' => [
+                'tags' => $config->getCacheTags(),
+            ]
+        ];
+    }
+}
+
+
+
+

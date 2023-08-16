@@ -1,0 +1,7 @@
+js-phone:
+  version: 1.x
+  js:
+    js/javascript_api.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
