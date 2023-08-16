@@ -55,6 +55,7 @@ module:
   tour: 0
   update: 0
   user: 0
+  views_api: 0
   views_ui: 0
   webform: 0
   views: 10
