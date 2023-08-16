@@ -1,0 +1,7 @@
+hello_world.settings:
+  path: '/hello-world'
+  defaults:
+    _controller: '\Drupal\hello_world\Controller\HelloWorldController::build'
+    _title: 'Hello World Module'
+  requirements:
+    _permission: 'access content'

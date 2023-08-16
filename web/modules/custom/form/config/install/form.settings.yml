@@ -1,0 +1,12 @@
+first_name:
+middle_name:
+last_name:
+email_id:
+phone_number:
+email_providers:
+  - "google.com"
+  - "innoraft.com"
+  - "gmail.com"
+  - "zoho.com"
+  - "yahoo.com"
+  - "outlook.com"

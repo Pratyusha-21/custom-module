@@ -1,4 +1,3 @@
-uuid: 42248b95-a0ae-4e8c-b996-8e4e053f2f48
 langcode: en
 status: true
 dependencies:
@@ -9,8 +8,6 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
-_core:
-  default_config_hash: TcnwfnFAqtb2LUoYGa2dp3_vdQw56OeeLqUVKH-aRXE
 name: Movie
 type: movie
 description: ''
