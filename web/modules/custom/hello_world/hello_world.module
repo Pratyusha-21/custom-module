@@ -1,0 +1,6 @@
+<?php
+function hello_world_cron() { 
+    $user_name = \Drupal::currentUser()->getDisplayName();
+    \Drupal::logger('hello_world')->notice($user_name);
+    \Drupal::messenger()->addStatus(t('Heloo @user', ['@user' => $user_name]));
+}
