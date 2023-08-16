@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: On9JG_raxtufpWHMn4WPYwtSd_PO3dRq4Lw_UGLmtHY
+first_name: null
+middle_name: null
+last_name: null
+email_id: null
+phone_number: null
+email_providers:
+  - google.com
+  - innoraft.com
+  - gmail.com
+  - zoho.com
+  - yahoo.com
+  - outlook.com
