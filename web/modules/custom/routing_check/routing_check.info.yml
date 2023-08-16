@@ -1,0 +1,6 @@
+name: Routing Check Module
+description: Checks how routing works.
+package: Custom
+
+type: module
+core_version_requirement: ^9 || ^10
