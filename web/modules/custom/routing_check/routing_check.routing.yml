@@ -1,0 +1,19 @@
+routing_check.settings:
+  path: '/routing'
+  defaults:
+    _controller: '\Drupal\routing_check\Controller\RoutingCheckController::simpleContent'
+    _title: 'Routing Check Module'
+  requirements:
+    _permission: 'access content'
+
+routing_check.custom:
+  path: '/campaign/value/{value}'
+  defaults:
+    _controller: '\Drupal\routing_check\Controller\RoutingCheckController::customRoute'
+    _title: 'Custom Route Module'
+  requirements:
+    _permission: 'access content'
+  # options:
+  #   parameters:
+  #     value:
+  #       type: entity:user

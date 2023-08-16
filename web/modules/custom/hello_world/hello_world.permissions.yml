@@ -1,0 +1,5 @@
+Hello World Module:
+  title: 'Access the Hello World Module'
+  description: 'Shows only the current user name.'
+  permission_callbacks:
+  - Drupal\filter\FilterPermissions::permissions
