@@ -1,4 +1,3 @@
-uuid: 03495de1-96fb-4058-b684-9a8b69ec65d1
 langcode: en
 status: true
 dependencies:
@@ -11,8 +10,6 @@ dependencies:
   module:
     - text
     - user
-_core:
-  default_config_hash: IDTnrqmFHzzXwnKIs3S37n_VCdD3YfbhZV4kjPuYEFU
 id: node.movie.teaser
 targetEntityType: node
 bundle: movie

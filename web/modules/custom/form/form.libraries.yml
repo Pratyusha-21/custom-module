@@ -1,0 +1,5 @@
+user_details_form:
+  version: 1.0
+  css:
+    theme:
+      css/userdetails.css: {}

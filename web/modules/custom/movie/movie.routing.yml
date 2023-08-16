@@ -1,0 +1,39 @@
+entity.entity_api.settings:
+  path: 'admin/structure/movie'
+  defaults:
+    _form: '\Drupal\movie\Form\EntityApiSettingsForm'
+    _title: 'Entity api'
+  requirements:
+    _permission: 'administer entity api'
+
+entity.movie_module.collection:
+  path: '/admin/structure/movie-module'
+  defaults:
+    _entity_list: 'movie_module'
+    _title: 'Movie Module configuration'
+  requirements:
+    _permission: 'administer movie_module'
+
+entity.movie_module.add_form:
+  path: '/admin/structure/movie_module/add'
+  defaults:
+    _entity_form: 'movie_module.add'
+    _title: 'Add a movie module'
+  requirements:
+    _permission: 'administer movie_module'
+
+entity.movie_module.edit_form:
+  path: '/admin/structure/movie-module/{movie_module}'
+  defaults:
+    _entity_form: 'movie_module.edit'
+    _title: 'Edit a movie module'
+  requirements:
+    _permission: 'administer movie_module'
+
+entity.movie_module.delete_form:
+  path: '/admin/structure/movie-module/{movie_module}/delete'
+  defaults:
+    _entity_form: 'movie_module.delete'
+    _title: 'Delete a movie module'
+  requirements:
+    _permission: 'administer movie_module'

@@ -1,4 +1,3 @@
-uuid: 8b77e006-f085-4354-8d04-054d041fbef2
 langcode: en
 status: true
 dependencies:
@@ -12,8 +11,6 @@ dependencies:
     - image
     - path
     - text
-_core:
-  default_config_hash: DaUa_9DfvdFI2NTb8NVmZNRSOyC1TzpcK7j3eGrrVEc
 id: node.movie.default
 targetEntityType: node
 bundle: movie

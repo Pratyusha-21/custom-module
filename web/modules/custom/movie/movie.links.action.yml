@@ -1,0 +1,6 @@
+entity.movie_module.add_form:
+  route_name: 'entity.movie_module.add_form'
+  title: 'Add movie module'
+  appears_on:
+    - entity.movie_module.collection
+
