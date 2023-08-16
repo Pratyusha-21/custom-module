@@ -1,0 +1,18 @@
+uuid: 25caba67-bf82-4b82-bdd0-a3ede1fe6e71
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.events
+id: node.events.title
+field_name: title
+entity_type: node
+bundle: events
+label: 'Event Title'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
