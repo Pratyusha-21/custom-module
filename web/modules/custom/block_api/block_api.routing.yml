@@ -1,0 +1,7 @@
+block_api.settings:
+  path: '/block-api'
+  defaults:
+    _controller: '\Drupal\block_api\Controller\BlockApiController::build'
+    _title: 'Block API Module'
+  requirements:
+    _permission: 'access content'
