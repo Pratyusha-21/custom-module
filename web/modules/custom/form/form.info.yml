@@ -1,0 +1,5 @@
+name: Example Form Module
+description: Shows a User Details Form.
+package: Custom
+type: module
+core_version_requirement: ^9 || ^10

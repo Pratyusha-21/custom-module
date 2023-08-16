@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * Implements hook_route_alter().
+ */
+// function routing_check_route_alter(RouteCollection $route_collection) {
+//     $route = $route_collection->get('routing_check.settings');
+  
+//     if ($route) {
+//       $route->setPath('/routing/check');
+//       $route->setDefault('_controller', '\Drupal\routing_check\Controller\RoutingCheckController::simpleContent');
+//     }
+//   }
+  /**
+ * Implements hook_permission() to define module permissions.
+ */

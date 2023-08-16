@@ -1,0 +1,14 @@
+.error {
+  color: red;
+  font-size: 25px;
+}
+
+#success {
+  color: green;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.toolbar-icon.toolbar-icon-menu-api-form::before {
+  background-image: url("http://custom-drupal.com/modules/custom/menu_api/images/5005.png");
+}

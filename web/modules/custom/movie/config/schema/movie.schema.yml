@@ -1,0 +1,20 @@
+movie.movie_module.*:
+  type: config_entity
+  label: Movie Module
+  mapping:
+    id:
+      type: string
+      label: ID
+    label:
+      type: label
+      label: Label
+    uuid:
+      type: string
+    description:
+      type: string
+    year: 
+      type: number
+    movie: 
+      type: string
+
+

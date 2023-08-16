@@ -7,6 +7,7 @@ module:
   automated_cron: 0
   big_pipe: 0
   block: 0
+  block_api: 0
   block_content: 0
   breakpoint: 0
   ckeditor5: 0
@@ -14,6 +15,7 @@ module:
   config: 0
   contact: 0
   contextual: 0
+  custom_field: 0
   datetime: 0
   dblog: 0
   devel: 0
@@ -24,19 +26,25 @@ module:
   field_ui: 0
   file: 0
   filter: 0
+  form: 0
+  hello_world: 0
   help: 0
   history: 0
   image: 0
+  javascript_api: 0
   link: 0
   mailboxlayer: 0
+  menu_api: 0
   menu_link_content: 0
   menu_ui: 0
+  movie: 0
   mysql: 0
   node: 0
   options: 0
   page_cache: 0
   path: 0
   path_alias: 0
+  routing_check: 0
   search: 0
   shortcut: 0
   standard: 0
@@ -47,6 +55,7 @@ module:
   tour: 0
   update: 0
   user: 0
+  views_api: 0
   views_ui: 0
   webform: 0
   views: 10

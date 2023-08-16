@@ -1,0 +1,7 @@
+views_api.settings:
+  path: '/views-sort'
+  defaults:
+    _form: '\Drupal\taxonomy_term\Form\TaxonomyTermConfigForm'
+    _title: 'Sort data '
+  requirements:
+    _permission: access content

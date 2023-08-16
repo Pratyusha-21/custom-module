@@ -1,0 +1,7 @@
+name: Movie Module
+description: Works on creating a content type.
+package: Custom
+
+type: module
+core_version_requirement: ^9 || ^10
+configure: entity.movie_module.collection
