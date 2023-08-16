@@ -33,6 +33,7 @@ module:
   image: 0
   link: 0
   mailboxlayer: 0
+  menu_api: 0
   menu_link_content: 0
   menu_ui: 0
   movie: 0

@@ -1,0 +1,6 @@
+menu_api.form:
+  parent: system.admin
+  weight: 6
+  route_name: menu_api.settings
+  title: 'Movie Budget'
+  description: 'This is a custom menu item.'

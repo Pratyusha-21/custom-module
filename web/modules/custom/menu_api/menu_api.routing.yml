@@ -1,0 +1,7 @@
+menu_api.settings:
+  path: '/admin/config/system/menu-api'
+  defaults:
+    _form: '\Drupal\menu_api\Form\Menu'
+    _title: 'Set your Movie Budget'
+  requirements:
+    _role: 'administrator + editor'
